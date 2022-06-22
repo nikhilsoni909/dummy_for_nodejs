@@ -1,0 +1,11 @@
+// modules-encapsulated code (only share minimum);
+const john = "john";
+const peter = "peter";
+const sayHi = (name) => {
+    console.log(`hello there ${name}`);
+}
+sayHi("susan");
+sayHi(john);
+sayHi(peter);
+
+// will se in modules1.js
